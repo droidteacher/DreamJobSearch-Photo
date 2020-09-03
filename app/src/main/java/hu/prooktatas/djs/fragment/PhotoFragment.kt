@@ -179,7 +179,10 @@ class PhotoFragment : Fragment() {
                         it
                     )
 
-//                    val photoURI = FileProvider.getUriForFile(Objects.requireNonNull(activity!!), BuildConfig.APPLICATION_ID + ".fileprovider", it)
+                    /*
+                        Egy masik modszer arra, hogy egy File eleresi utjat URI-va konverteljuk:
+                        val photoURI = FileProvider.getUriForFile(Objects.requireNonNull(activity!!), BuildConfig.APPLICATION_ID + ".fileprovider", it)
+                     */
 
                     Log.d(TAG, "photoURI: $photoURI")
 
